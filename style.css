@@ -1,0 +1,92 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('image/background.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+form {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.523);
+    padding: 100px;
+    width: 500px;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    color: white;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: 0.3s;
+    border: none;
+    outline: none;
+    margin-top: 5px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    background-color: rgb(129, 129, 129);
+}
+
+input[type="text"]:hover::placeholder, input[type="password"]:hover::placeholder {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: rgb(129, 129, 129);
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+    font-size: 100%;
+    border-radius: 10px;
+    border: none;
+    margin: 5px 0 20px 0px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgb(129, 129, 129);
+    color: white;
+}
+
+.options {
+    margin: 20px 0 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+}
+
+.options_buttom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 100%;
+}
